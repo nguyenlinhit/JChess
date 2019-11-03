@@ -17,8 +17,8 @@ public class Queen extends Piece{
 
     private final static int[] CANDIDATE_MOVE_VECTOR_COORDINATE = {-1, -7, -8, -9, 7, 9, 8, 7, 1};
 
-    protected Queen(int piecePosition, Alliance pieceAlliance) {
-        super(piecePosition, pieceAlliance);
+    public Queen(final Alliance pieceAlliance, final int piecePosition) {
+        super(pieceAlliance, piecePosition);
     }
 
     @Override

@@ -22,8 +22,8 @@ public class Knight extends Piece {
      * @param piecePosition
      * @param pieceAlliance
      */
-    Knight(final int piecePosition, final Alliance pieceAlliance){
-        super(piecePosition, pieceAlliance);
+    public Knight(final Alliance pieceAlliance, final int piecePosition){
+        super(pieceAlliance, piecePosition);
     }
 
     /**
